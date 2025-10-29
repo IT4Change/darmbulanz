@@ -1,0 +1,52 @@
+domain: {{ .StateValues.deploy.DOMAIN }}
+redirect_domains: {{ .StateValues.deploy.REDIRECT_DOMAINS }}
+
+cert_manager:
+  issuer: {{ .Release.Name }}-letsencrypt-prod
+
+underMaintenance: false
+
+global:
+  image:
+    tag: {{ .StateValues.deploy.IMAGE_TAG }}
+    pullPolicy: Always
+
+backend:
+  image:
+    repository:  ghcr.io/{{ .StateValues.deploy.GITHUB_REPOSITORY | lower }}/backend
+  storage: "10Gi"
+  env:
+    NEO4J_URI: "bolt://ocelot-neo4j-neo4j:7687"
+    PRODUCTION_DB_CLEAN_ALLOW: {{ .StateValues.ocelot.options.PRODUCTION_DB_CLEAN_ALLOW | quote }}
+    PUBLIC_REGISTRATION: {{ .StateValues.ocelot.options.PUBLIC_REGISTRATION | quote }}
+    INVITE_REGISTRATION: {{ .StateValues.ocelot.options.INVITE_REGISTRATION | quote }}
+    CATEGORIES_ACTIVE: {{ .StateValues.ocelot.options.CATEGORIES_ACTIVE | quote }}
+    MAX_PINNED_POSTS: {{ .StateValues.ocelot.options.MAX_PINNED_POSTS | quote }}
+
+webapp:
+  image:
+    repository: ghcr.io/{{ .StateValues.deploy.GITHUB_REPOSITORY | lower }}/webapp
+  env:
+    PUBLIC_REGISTRATION: {{ .StateValues.ocelot.options.PUBLIC_REGISTRATION | quote }}
+    INVITE_REGISTRATION: {{ .StateValues.ocelot.options.INVITE_REGISTRATION | quote }}
+    CATEGORIES_ACTIVE: {{ .StateValues.ocelot.options.CATEGORIES_ACTIVE | quote }}
+    BADGES_ENABLED: {{ .StateValues.ocelot.options.BADGES_ENABLED | quote }}
+    NETWORK_NAME: {{ .StateValues.ocelot.options.NETWORK_NAME | quote }}
+    ASK_FOR_REAL_NAME: {{ .StateValues.ocelot.options.ASK_FOR_REAL_NAME | quote }}
+    REQUIRE_LOCATION: {{ .StateValues.ocelot.options.REQUIRE_LOCATION | quote }}
+
+maintenance:
+  image:
+    repository: ghcr.io/{{ .StateValues.deploy.GITHUB_REPOSITORY | lower }}/maintenance
+
+neo4j:
+  image:
+    repository: ghcr.io/ocelot-social-community/ocelot-social/neo4j
+    tag: master
+  storage: {{ .StateValues.deploy.NEO4J_STORAGE | quote }}
+  storageBackups: "10Gi"
+  resources:
+    requests:
+      memory: "2Gi"
+    limits:
+      memory: "4Gi"

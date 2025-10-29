@@ -1,0 +1,22 @@
+{{ $image_tag := env "IMAGE_TAG" | default  (exec "../scripts/branded_image_tag.sh" (list) | trim) }}
+
+deploy:
+    GITHUB_REPOSITORY: it4change/darmbulanz
+    IMAGE_TAG: {{ $image_tag }}
+    DOMAIN: darmbulanz.stage.ocelot-social.it4c.org
+    REDIRECT_DOMAINS: []
+    NAMESPACE: darmbulanz-staging
+    RELEASE_NAME_OCELOT: darmbulanz-social-ocelot
+    NEO4J_STORAGE: "5Gi"
+
+ocelot:
+    options:
+        PRODUCTION_DB_CLEAN_ALLOW: "false"
+        PUBLIC_REGISTRATION: "false"
+        INVITE_REGISTRATION: "false"
+        CATEGORIES_ACTIVE: "true"
+        MAX_PINNED_POSTS: "1"
+        BADGES_ENABLED: "false"
+        NETWORK_NAME: "Darmbulanz"
+        ASK_FOR_REAL_NAME: "false"
+        REQUIRE_LOCATION: "false"
