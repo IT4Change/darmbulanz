@@ -159,7 +159,7 @@ body {
   font-family: $font-family-text !important;
 }
 
-.ds-button, .ds-chip, .ds-copy-field, .ds-list, .ds-select-search, .ds-tag, .ds-text {
+.os-button, .ds-chip, .ds-copy-field, .ds-list, .ds-select-search, .ds-tag, .ds-text {
   font-family: $font-family-text !important;
 }
 .ds-heading {
@@ -174,11 +174,11 @@ a:hover {
   color: $color-primary-light;
 }
 
-.base-button.--circle.post-add-button-top {
+.os-button.post-add-button-top {
   background-color: $color-secondary-active;
   border-color: $color-secondary-active;
 }
-a:hover > .base-button.--circle.post-add-button-top {
+a:hover > .os-button.post-add-button-top {
   background-color: $color-secondary;
   border-color: $color-secondary-dark;
 }
@@ -225,16 +225,6 @@ a:hover.ds-menu-item-link {
 
 .main-navigation .locale-menu {
   color: $color-text;
-}
-
-.main-navigation .base-button {
-  color: $color-text;
-
-  &:hover {
-    background-color: $color-primary;
-    color: white;
-    border-color: $color-primary;
-  }
 }
 
 .hc-hashtag a {
@@ -300,77 +290,39 @@ div.tab-navigation li.Tabs__tab {
   border-bottom-color: $color-primary;
 }
 
-/* ds-button with primary color */
-.ds-button-primary {
+/* os-button outline (non-filled, non-danger) */
+.os-button[data-appearance="outline"]:not([data-variant="danger"]) {
   background-color: transparent;
-  color: $color-headings; // Blue text
-  border-color: $color-headings; // Blue border
-
-  &:hover {
-    background-color: transparent;
-    color: $color-brand; // Red text on hover
-    border-color: $color-brand; // Red border on hover
-  }
-
-  &:active, &.active {
-    background-color: transparent;
-    color: $color-headings; // Blue text when active
-    border-color: $color-text; // Black border when active
-  }
-}
-
-/* ds-button with secondary color */
-.ds-button-secondary {
-  background-color: $color-headings; // Blue background
-  color: white;
-  border-color: $color-headings;
-
-  &:hover {
-    background-color: $color-text; // Dark/black background on hover
-    color: white;
-    border-color: $color-text;
-  }
-
-  &:active, &.active {
-    background-color: $color-headings; // Blue background when active
-    color: white;
-    border-color: $color-headings;
-  }
-}
-
-/* base-button default (non-filled) */
-.base-button:not(.--filled):not(.--danger) {
-  background-color: transparent;
-  color: $color-primary; // Blue text
-  border-color: $color-primary; // Blue border
+  color: $color-primary;
+  border-color: $color-primary;
 
   &:enabled:hover {
     background-color: transparent;
-    color: $color-primary-hover; // Red text on hover
-    border-color: $color-primary-hover; // Red border on hover
+    color: $color-primary-hover;
+    border-color: $color-primary-hover;
   }
 
   &:enabled:active {
     background-color: transparent;
-    color: $color-primary; // Blue text when active
-    border-color: $color-primary-active; // Black border when active
+    color: $color-primary;
+    border-color: $color-primary-active;
   }
 }
 
-/* base-button with filled prop */
-.base-button.--filled {
-  background-color: $color-secondary; // Blue background
+/* os-button filled */
+.os-button[data-appearance="filled"]:not([data-variant="danger"]) {
+  background-color: $color-secondary;
   color: white;
   border-color: $color-secondary;
 
   &:enabled:hover {
-    background-color: $color-secondary-dark; // Dark/black background on hover
+    background-color: $color-secondary-dark;
     color: white;
     border-color: $color-secondary-dark;
   }
 
   &:enabled:active {
-    background-color: $color-secondary; // Blue background when active
+    background-color: $color-secondary;
     color: white;
     border-color: $color-secondary;
   }
@@ -451,7 +403,17 @@ div.ds-input-wrap > input:focus-within.ds-input {
   background-color: $color-filter-menu-background !important;
 }
 
-.editor .base-button {
+.main-navigation .os-button[data-appearance] {
+  color: $color-text;
+
+  &:hover {
+    background-color: $color-primary;
+    color: white;
+    border-color: $color-primary;
+  }
+}
+
+.editor .os-button[data-appearance] {
   color: $color-secondary;
   border-color: $color-secondary;
 
