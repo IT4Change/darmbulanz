@@ -1,0 +1,41 @@
+{
+  "registration": {
+    "introduction": "Bedankt dat u lid bent geworden van onze expertengemeenschap – we zijn erg blij u aan boord te hebben! Er ontbreekt nog maar één kleine stap voordat we samen de wereld van de geestelijke gezondheid kunnen vormgeven … Bevestig uw e-mailadres door op de onderstaande knop te klikken:",
+    "codeHintException": "Dit werkt echter alleen als u zich via onze website heeft geregistreerd. Als u zich nog niet heeft aangemeld, raden wij u aan dit te doen!",
+    "welcomeLetter": {
+      "quorumSensing": {
+        "title": "Quorum Sensing",
+        "body": "Quorum Sensing is een communicatiemechanisme bij bacteriën waarmee ze hun gedrag kunnen coördineren op basis van populatiedichtheid. Bacteriën scheiden signaalmoleculen uit, zogenaamde auto-inducers, die zich ophopen in de omgeving. Zodra de concentratie een drempelwaarde bereikt, triggert dit een genetische respons die collectieve processen zoals biofilmvorming of productie van virulentiefactoren aanstuurt. Dit mechanisme helpt bacteriën te reageren op omgevingsveranderingen."
+      },
+      "nmPrinciple": {
+        "title": "Het Quorum Sensing-principe van Nutriminds.net",
+        "body": "Geïnspireerd door bacterieel quorum sensing weerspiegelen we dit mechanisme in menselijke samenwerking: individuele bijdragen stapelen zich op tot collectieve intelligentie die – pas bij kritieke massa door dicht netwerken – baanbrekende inzichten en therapeutische benaderingen vrijmaakt."
+      },
+      "coreMission": {
+        "title": "De kernmissie",
+        "body": "De leden van de Nutriminds.net-gemeenschap verbinden evidence-based onderzoek en praktische ervaringen op het gebied van voeding en dysbiose met vertrouwde peer-uitwisseling over innovatieve, wetenschappelijk onderbouwde behandelmethoden – van vergeten traditionele benaderingen tot nieuwe therapieën."
+      },
+      "platform": "Nutriminds.net is een exclusief communityplatform voor wetenschappers, clinici en artsen die interdisciplinair (psychiaters, internisten, endocrinologen, immunologen, gastro-enterologen, neurologen en psychologen) onderzoek doen naar voeding, suppletie en de complexe effecten van dysbiose op gezondheid en gedrag.",
+      "independence": "Nutriminds.net is onafhankelijk en vrij van industriële invloeden. Het platform wordt beheerd door de Oostenrijkse vereniging Dioscurides e.V. en is daarmee eigendom van haar leden.",
+      "hosting": "Nutriminds.net wordt veilig gehost in Duitsland door een middelgrote provider.",
+      "privacy": "Een belangrijke drijfveer voor de lancering van Nutriminds.net is dat gesloten professionele expertengemeenschappen niet vallen onder de scanverplichtingen van de EU's „vrijwillige chatcontrole“ voor sociale mediaproviders. Omdat Nutriminds.net zich niet richt op een breed publiek, is geen massatoezicht vereist en blijft de uitwisseling van leden beschermd: ze worden niet gemonitord en niet gelezen door AI. Leden kunnen dus vrijelijk discussiëren over de nieuwste wetenschappelijke bevindingen, praktische voedingsprotocollen, interessante studies, evenementen, vacatures, hun belastingaangiften of opwindende reisbestemmingen.",
+      "austrianLaw": "Daarnaast biedt het Oostenrijkse verenigingsrecht sterke bescherming voor leden – met name met betrekking tot therapeutische claims.",
+      "recommend": "Word lid en beveel nutriminds.net aan bij uw wetenschappelijke en praktiserende collega's en medewerkers wereldwijd.",
+      "signature": "Uw Nutriminds.net-team",
+      "benefits": {
+        "title": "Voordelen voor leden",
+        "item1": "Veilige, interdisciplinaire en grensoverschrijdende discussies in 10 talen over voedingspsychiatrie, psychologie, immunologie, neurologie, endocrinologie en gastro-enterologie in een speciaal beveiligde ruimte.",
+        "item2": "Veilige uitwisseling van casestudies, veilige gegevensdeling en collaboratieve studies in open, gesloten en geheime groepen.",
+        "item3": "Het Quorum Sensing-netwerk voor evidence-based integratie van ervarings- en nieuwe behandelmethoden in de moderne praktijk."
+      },
+      "verification": {
+        "title": "Het Nutriminds.net-verificatieproces – alleen experts zijn uitgenodigd",
+        "item1": "Razendsnelle identiteitscontrole: AI-OCR verifieert licenties, diploma's en kwalificaties in enkele seconden – met 99% nauwkeurigheid.",
+        "item2": "Veilige certificering voor wetenschappers en artsen.",
+        "item3": "Pure biometrie: liveness-detectie en gezichtsherkenning beschermen tegen vervalsingen – ideaal voor de exclusieve Nutriminds.net-community.",
+        "item4": "GDPR-conforme API: naadloos geïntegreerd, wereldwijd schaalbaar, AML/KYC-conform.",
+        "item5": "Quasi-directe onboarding."
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "registration": {
+    "introduction": "Danke, dass Sie unserer Expertengemeinschaft beigetreten sind – wir freuen uns sehr, Sie an Bord zu haben! Es fehlt nur noch ein kleiner Schritt, bevor wir gemeinsam die Welt der mentalen Gesundheit gestalten können … Bitte bestätigen Sie Ihre E-Mail-Adresse, indem Sie auf die Schaltfläche unten klicken:",
+    "codeHintException": "Dies funktioniert jedoch nur, wenn Sie sich über unsere Website registriert haben. Falls Sie sich nicht angemeldet haben, empfehlen wir Ihnen, dies nachzuholen!",
+    "welcomeLetter": {
+      "quorumSensing": {
+        "title": "Quorum Sensing",
+        "body": "Quorum Sensing ist ein Kommunikationsmechanismus bei Bakterien, der es ihnen ermöglicht, ihr Verhalten anhand der Populationsdichte zu koordinieren. Bakterien setzen Signalmoleküle, sogenannte Autoinduktoren, frei, die sich in der Umgebung anreichern. Sobald die Konzentration einen Schwellenwert erreicht, löst dies eine genetische Reaktion aus, die kollektive Prozesse wie die Bildung von Biofilmen oder die Produktion von Virulenzfaktoren steuert. Dieser Mechanismus hilft Bakterien, auf Umweltveränderungen zu reagieren."
+      },
+      "nmPrinciple": {
+        "title": "Das Quorum-Sensing-Prinzip von Nutriminds.net",
+        "body": "Inspiriert vom bakteriellen Quorum Sensing spiegeln wir diesen Mechanismus in der menschlichen Zusammenarbeit wider: Individuelle Beiträge akkumulieren zu kollektiver Intelligenz, die – erst ab einer kritischen Masse durch dichte Vernetzung – bahnbrechende Erkenntnisse und therapeutische Ansätze freisetzt."
+      },
+      "coreMission": {
+        "title": "Die Kernmission",
+        "body": "Die Mitglieder der Nutriminds.net-Gemeinschaft verbinden evidenzbasierte Forschung und praktische Erfahrungen in den Bereichen Ernährung und Dysbiose mit vertrauensvollem Peer-Austausch über innovative, wissenschaftlich fundierte Behandlungsmethoden – von vergessenen traditionellen Ansätzen bis hin zu neuartigen Therapien."
+      },
+      "platform": "Nutriminds.net ist eine exklusive Community-Plattform für Wissenschaftler, Kliniker und Ärzte, die interdisziplinär (Psychiater, Internisten, Endokrinologen, Immunologen, Gastroenterologen, Neurologen und Psychologen) zu Ernährung, Nahrungsergänzung und den komplexen Auswirkungen von Dysbiose auf Gesundheit und Verhalten forschen.",
+      "independence": "Nutriminds.net ist unabhängig und industriefrei. Sie wird vom österreichischen Verein Dioscurides e.V. betrieben und gehört damit ihren Mitgliedern.",
+      "hosting": "Nutriminds.net wird in Deutschland von einem mittelständischen Anbieter sicher gehostet.",
+      "privacy": "Ein wesentlicher Beweggrund für die Gründung von Nutriminds.net ist, dass geschlossene professionelle Expertengemeinschaften nicht den Scan-Pflichten der EU-„freiwilligen Chatkontrolle“ für Social-Media-Anbieter unterliegen. Da Nutriminds.net sich nicht an eine breite Öffentlichkeit richtet, ist keine Massenüberwachung erforderlich, und der Austausch der Mitglieder bleibt geschützt: Er wird nicht überwacht und nicht von KI gelesen. Mitglieder können daher frei über neueste Erkenntnisse der Wissenschaft, praktische Ernährungsprotokolle, interessante Studien, Veranstaltungen, Stellenangebote, ihre Steuererklärungen oder spannende Reiseziele diskutieren.",
+      "austrianLaw": "Darüber hinaus bietet das österreichische Vereinsrecht einen starken Schutz für Mitglieder – insbesondere im Hinblick auf therapeutische Aussagen.",
+      "recommend": "Bitte treten Sie bei und empfehlen Sie nutriminds.net Ihren wissenschaftlichen und praktizierenden Kollegen und Mitarbeitern aus aller Welt.",
+      "signature": "Ihr Nutriminds.net-Team",
+      "benefits": {
+        "title": "Vorteile für Mitglieder",
+        "item1": "Sichere, interdisziplinäre und grenzüberschreitende Diskussionen in 10 Sprachen zu Ernährungs-Psychiatrie, Psychologie, Immunologie, Neurologie, Endokrinologie und Gastroenterologie in einem eigens geschützten Raum.",
+        "item2": "Sicherer Austausch von Fallstudien, sichere Datenweitergabe und kollaborative Studien in offenen, geschlossenen und geheimen Gruppen.",
+        "item3": "Das Quorum-Sensing-Netzwerk zur evidenzbasierten Integration von Erfahrungs- und neuen Behandlungsmethoden in die moderne Praxis."
+      },
+      "verification": {
+        "title": "Der Nutriminds.net-Verifizierungsprozess – nur Experten sind eingeladen",
+        "item1": "Blitzschnelle Identitätsprüfung: KI-OCR verifiziert Lizenzen, Diplome und Qualifikationen in Sekundenschnelle – mit 99 % Genauigkeit.",
+        "item2": "Sichere Beglaubigung für Wissenschaftler und Ärzte.",
+        "item3": "Reine Biometrie: Liveness-Detection und Gesichtsabgleich schützen vor Fälschungen – ideal für die exklusive Nutriminds.net-Community.",
+        "item4": "DSGVO-konforme API: nahtlos integriert, global skalierbar, AML/KYC-konform.",
+        "item5": "Quasi-sofortiges Onboarding."
+      }
+    }
+  }
+}

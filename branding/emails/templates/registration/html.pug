@@ -1,0 +1,52 @@
+extend ../layout.pug
+
+block content
+  p!= t('registration.introduction')
+
+  p(style='text-align:center;margin:24px 0;')
+    a(href=actionUrl style='background-color:#3c78d8;color:#ffffff;font-weight:bold;padding:12px 24px;text-decoration:none;border-radius:4px;display:inline-block;font-family:Arial,sans-serif;')!= t('buttons.confirmEmail')
+
+  p!= t('registration.codeHint')
+    span(style='color:#3c78d8;font-weight:bold;')!= nonce
+  p!= t('registration.codeHintException')
+
+  hr(style='border:none;border-top:1px solid #cccccc;margin:24px 0;')
+
+  h3(style='color:#3c78d8;')!= t('registration.welcomeLetter.quorumSensing.title')
+  p!= t('registration.welcomeLetter.quorumSensing.body')
+
+  h3(style='color:#3c78d8;')!= t('registration.welcomeLetter.nmPrinciple.title')
+  p!= t('registration.welcomeLetter.nmPrinciple.body')
+
+  h3(style='color:#3c78d8;')!= t('registration.welcomeLetter.coreMission.title')
+  p!= t('registration.welcomeLetter.coreMission.body')
+
+  p!= t('registration.welcomeLetter.platform')
+  p!= t('registration.welcomeLetter.independence')
+  p!= t('registration.welcomeLetter.hosting')
+  p!= t('registration.welcomeLetter.privacy')
+  p!= t('registration.welcomeLetter.austrianLaw')
+  p!= t('registration.welcomeLetter.recommend')
+  p(style='color:#3c78d8;font-weight:bold;')!= t('registration.welcomeLetter.signature')
+
+  hr(style='border:none;border-top:1px solid #cccccc;margin:24px 0;')
+
+  h3(style='color:#3c78d8;')!= t('registration.welcomeLetter.benefits.title')
+  ul
+    li!= t('registration.welcomeLetter.benefits.item1')
+    li!= t('registration.welcomeLetter.benefits.item2')
+    li!= t('registration.welcomeLetter.benefits.item3')
+
+  h3(style='color:#3c78d8;')!= t('registration.welcomeLetter.verification.title')
+  ul
+    li!= t('registration.welcomeLetter.verification.item1')
+    li!= t('registration.welcomeLetter.verification.item2')
+    li!= t('registration.welcomeLetter.verification.item3')
+    li!= t('registration.welcomeLetter.verification.item4')
+    li!= t('registration.welcomeLetter.verification.item5')
+
+  p!= t('registration.notYouStart')
+    a(href=ORGANIZATION_LINK)!= APPLICATION_NAME
+    != t('registration.notYouEnd')
+
+  p!= t('registration.ps')

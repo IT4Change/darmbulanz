@@ -1,0 +1,41 @@
+{
+  "registration": {
+    "introduction": "Thank you for joining our expert community – it's awesome to have you on board! There's just one tiny step missing before we can start shaping the world of mental health together … Please confirm your e-mail address by clicking the button below:",
+    "codeHintException": "However, this only works if you have registered through our website. If you didn't sign up, we recommend you to check it out!",
+    "welcomeLetter": {
+      "quorumSensing": {
+        "title": "Quorum Sensing",
+        "body": "Quorum Sensing is a communication mechanism in bacteria that allows them to coordinate their behaviors based on population density. Bacteria release signaling molecules called autoinducers, which accumulate in the environment. Once the concentration reaches a threshold, it triggers a genetic response that controls collective processes such as biofilm formation or virulence factor production. This mechanism helps bacteria respond to environmental changes."
+      },
+      "nmPrinciple": {
+        "title": "The Quorum Sensing Principle of Nutriminds.net",
+        "body": "Inspired by bacterial quorum sensing, we mirror this mechanism in human collaboration: Individual contributions accumulate into collective intelligence, which—only at critical mass through dense networking—unlocks groundbreaking insights and therapeutic approaches."
+      },
+      "coreMission": {
+        "title": "The Core Mission",
+        "body": "Nutriminds.net community members connect evidence-based research and practical experiences in nutrition and dysbiosis with trusted peer exchange on innovative, scientifically grounded treatment methods—from forgotten traditional approaches to novel therapies."
+      },
+      "platform": "Nutriminds.net is an exclusive community platform for scientists, clinicians and physicians who, across disciplines (psychiatrists, internists, endocrinologists, immunologists, gastroenterologists, neurologists, and psychologists) research nutrition, supplementation, and the complex impacts of dysbiosis on health and behavior.",
+      "independence": "The platform is independent and industry-free. It is operated by the Austrian association Dioscurides e.V. and is thus owned by its members.",
+      "hosting": "Nutriminds.net is securely hosted in Germany by a mid-sized provider.",
+      "privacy": "A key motivation for launching Nutriminds.net is that closed professional expert communities do not fall under the scanning obligations of the EU's “voluntary chat control” for social media providers. Since Nutriminds.net does not target a broad public, it requires no mass surveillance and members' exchanges remain protected: They are not monitored and not read by AI. Members can thus freely discuss the latest science, practical nutritional protocols, interesting studies, events, job offers, their tax returns or exciting travel destinations.",
+      "austrianLaw": "Additionally, Austrian association law (“Vereinsrecht”) provides strong protection for members—especially regarding therapeutic claims.",
+      "recommend": "Please join and recommend nutriminds.net to your peers and colleagues from around the world.",
+      "signature": "Your Nutriminds.net Team",
+      "benefits": {
+        "title": "Benefits for Members",
+        "item1": "Secure, interdisciplinary, and cross-border discussions in 10 languages on nutritional psychiatry, psychology, immunology, neurology, endocrinology, and gastroenterology in a dedicated protected space.",
+        "item2": "Exchange of case studies, data sharing, and collaborative studies in open, closed, and secret groups.",
+        "item3": "The Quorum Sensing Network for evidence-based integration of experiential and new treatment methods into modern practice."
+      },
+      "verification": {
+        "title": "The Nutriminds.net Vetting Process – only experts are invited",
+        "item1": "Lightning-fast ID checks: AI-OCR verifies licenses, diplomas, and credentials in seconds—99% accuracy.",
+        "item2": "Secure credential verification for scientists and physicians.",
+        "item3": "Pure biometrics: Liveness detection & face matching protect against fakes, ideal for the exclusive Nutriminds.net community.",
+        "item4": "GDPR-ready API: Seamlessly integrated, globally scalable, AML/KYC compliant.",
+        "item5": "Quasi-instant onboarding."
+      }
+    }
+  }
+}
