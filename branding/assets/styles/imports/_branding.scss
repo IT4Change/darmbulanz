@@ -423,3 +423,15 @@ div.ds-input-wrap > input:focus-within.ds-input {
     border-color: black;
   }
 }
+
+
+/* Hide author of quote */
+.login-form blockquote {
+  p {
+    white-space: pre-line;
+  }
+  b {                                                                                                                                                               
+    display: none;
+  }
+}
+
