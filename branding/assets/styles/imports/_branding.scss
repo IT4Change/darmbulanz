@@ -105,7 +105,8 @@ $background-color-primary-inverse: $color-bg-alt;
 $border-color-active: $color-primary;
 
 // Header uses alternative background color (beige)
-$color-header-background: $color-bg-alt;
+// $color-header-background: $color-bg-alt;
+$color-header-background: white;
 $color-footer-background: $color-secondary-dark;
 $color-body-background: $color-bg;
 $color-filter-menu-background: $color-bg;
