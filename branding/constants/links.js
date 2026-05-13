@@ -19,7 +19,7 @@ const ORGANIZATION = defaultPageParamsPages.ORGANIZATION.overwrite({
     // in case internal page content is here 'branding/locales/html/'
   },
 })
-const DONATE = defaultPageParamsPages.DONATE.overwrite({
+/* const DONATE = defaultPageParamsPages.DONATE.overwrite({
   // if defined it's dominating
   externalLink: {
     // we use 'ocelot-social.herokuapp.com' at the moment, because redirections of 'ocelot.social' subpages are not working correctly
@@ -36,12 +36,12 @@ const DONATE = defaultPageParamsPages.DONATE.overwrite({
     hasLoginInHeader: true,
     // in case internal page content is here 'branding/locales/html/'
   },
-})
+}) */
 const IMPRINT = defaultPageParamsPages.IMPRINT.overwrite({
   // if defined it's dominating
   externalLink: {
     // we use 'ocelot-social.herokuapp.com' at the moment, because redirections of 'ocelot.social' subpages are not working correctly
-    url: 'https://dioscurides.com',
+    url: 'https://darmbulanz.de/rechtliche-hinweise/#impressum',
     target: '_blank',
   },
 
@@ -58,6 +58,12 @@ const IMPRINT = defaultPageParamsPages.IMPRINT.overwrite({
 const TERMS_AND_CONDITIONS = defaultPageParamsPages.TERMS_AND_CONDITIONS.overwrite({
   // externalLink: null, // if defined it's dominating
 
+  externalLink: {
+    // we use 'ocelot-social.herokuapp.com' at the moment, because redirections of 'ocelot.social' subpages are not working correctly
+    url: 'https://darmbulanz.de/rechtliche-hinweise/#agb',
+    target: '_blank',
+  },
+
   internalPage: {
     // footerIdent: 'site.termsAndConditions', // localized string identifier, if undefined default is used
     // headTitleIdent: 'site.termsAndConditions', // localized string identifier, if undefined default is used
@@ -68,7 +74,7 @@ const TERMS_AND_CONDITIONS = defaultPageParamsPages.TERMS_AND_CONDITIONS.overwri
     // in case internal page content is here 'branding/locales/html/'
   },
 })
-const CODE_OF_CONDUCT = defaultPageParamsPages.CODE_OF_CONDUCT.overwrite({
+/* const CODE_OF_CONDUCT = defaultPageParamsPages.CODE_OF_CONDUCT.overwrite({
   // externalLink: null, // if defined it's dominating
 
   internalPage: {
@@ -80,9 +86,14 @@ const CODE_OF_CONDUCT = defaultPageParamsPages.CODE_OF_CONDUCT.overwrite({
     hasLoginInHeader: true,
     // in case internal page content is here 'branding/locales/html/'
   },
-})
+}) */
 const DATA_PRIVACY = defaultPageParamsPages.DATA_PRIVACY.overwrite({
   // externalLink: null, // if defined it's dominating
+  externalLink: {
+    // we use 'ocelot-social.herokuapp.com' at the moment, because redirections of 'ocelot.social' subpages are not working correctly
+    url: 'https://darmbulanz.de/rechtliche-hinweise/#datenschutz',
+    target: '_blank',
+  },
 
   internalPage: {
     // footerIdent: 'site.data-privacy', // localized string identifier, if undefined default is used
@@ -94,7 +105,7 @@ const DATA_PRIVACY = defaultPageParamsPages.DATA_PRIVACY.overwrite({
     // in case internal page content is here 'branding/locales/html/'
   },
 })
-const FAQ = defaultPageParamsPages.FAQ.overwrite({
+/* const FAQ = defaultPageParamsPages.FAQ.overwrite({
   // externalLink: null, // if defined it's dominating
 
   internalPage: {
@@ -106,8 +117,8 @@ const FAQ = defaultPageParamsPages.FAQ.overwrite({
     hasLoginInHeader: true,
     // in case internal page content is here 'branding/locales/html/'
   },
-})
-const SUPPORT = defaultPageParamsPages.SUPPORT.overwrite({
+}) */
+/* const SUPPORT = defaultPageParamsPages.SUPPORT.overwrite({
   // if defined it's dominating
   externalLink: {
     url: 'https://ocelot.social',
@@ -123,7 +134,7 @@ const SUPPORT = defaultPageParamsPages.SUPPORT.overwrite({
     hasLoginInHeader: true,
     // in case internal page content is here 'branding/locales/html/'
   },
-})
+}) */
 
 export default {
   LANDING_PAGE: '/login', // examples: '/login', '/registration', '/organization', or external 'https://ocelot.social'
@@ -131,22 +142,22 @@ export default {
   // you can find and store templates for 👇🏼 at https://github.com/Ocelot-Social-Community/Ocelot-Social-Deploy-Rebranding/tree/master/branding/templates/
 
   ORGANIZATION,
-  DONATE,
+  // DONATE,
   IMPRINT,
   TERMS_AND_CONDITIONS,
-  CODE_OF_CONDUCT,
+  // CODE_OF_CONDUCT,
   DATA_PRIVACY,
-  FAQ,
-  SUPPORT,
+  // FAQ,
+  // SUPPORT,
 
   FOOTER_LINK_LIST: [
     ORGANIZATION,
     TERMS_AND_CONDITIONS,
-    CODE_OF_CONDUCT,
+    // CODE_OF_CONDUCT,
     DATA_PRIVACY,
-    FAQ,
-    DONATE,
+    // FAQ,
+    // DONATE,
     IMPRINT,
-    SUPPORT,
+    // SUPPORT,
   ],
 }
