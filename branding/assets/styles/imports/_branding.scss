@@ -419,7 +419,7 @@ div.ds-input-wrap > input:focus-within.ds-input {
 
   &:hover {
     background-color: $color-primary;
-    color: white;
+    color: white !important;
     border-color: $color-primary;
   }
 }
