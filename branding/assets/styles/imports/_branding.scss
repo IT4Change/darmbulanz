@@ -269,6 +269,14 @@ a:hover.ds-menu-item-link {
 //   color: $color-bg-alt;
 // }
 
+/* Versions-Link nicht klickbar (Kundenwunsch: kein GitHub-Verweis) */
+#footer > a[href*="github.com"] {
+  pointer-events: none;
+  color: inherit !important;
+  text-decoration: none;
+  cursor: default;
+}
+
 .avatar-menu .profile-avatar {
   color: $color-primary;
 }
