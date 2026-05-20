@@ -261,13 +261,14 @@ a:hover.ds-menu-item-link {
 // #footer {
 //   background-color: $color-secondary-dark;
 // }
-// #footer a {
-//   color: white;
-//   font-weight: 400;
-// }
-// #footer a:hover {
-//   color: $color-bg-alt;
-// }
+#footer a {
+  //color: white;
+  color: $color-headings;
+  font-weight: 400;
+}
+#footer a:hover {
+  color: $color-bg-alt;
+}
 
 /* Versions-Link nicht klickbar (Kundenwunsch: kein GitHub-Verweis) */
 #footer > a[href*="github.com"] {
