@@ -41,9 +41,10 @@ const IMPRINT = defaultPageParamsPages.IMPRINT.overwrite({
   // if defined it's dominating
   externalLink: {
     // we use 'ocelot-social.herokuapp.com' at the moment, because redirections of 'ocelot.social' subpages are not working correctly
-    url: 'https://darmbulanz.de/rechtliche-hinweise/#impressum',
+    url: 'https://nutriminds.net/legal/#imprint',
     target: '_blank',
   },
+
 
   internalPage: {
     // footerIdent: 'site.imprint', // localized string identifier, if undefined default is used
@@ -60,7 +61,7 @@ const TERMS_AND_CONDITIONS = defaultPageParamsPages.TERMS_AND_CONDITIONS.overwri
 
   externalLink: {
     // we use 'ocelot-social.herokuapp.com' at the moment, because redirections of 'ocelot.social' subpages are not working correctly
-    url: 'https://darmbulanz.de/rechtliche-hinweise/#agb',
+    url: 'https://nutriminds.net/legal/#t&c',
     target: '_blank',
   },
 
@@ -91,7 +92,7 @@ const DATA_PRIVACY = defaultPageParamsPages.DATA_PRIVACY.overwrite({
   // externalLink: null, // if defined it's dominating
   externalLink: {
     // we use 'ocelot-social.herokuapp.com' at the moment, because redirections of 'ocelot.social' subpages are not working correctly
-    url: 'https://darmbulanz.de/rechtliche-hinweise/#datenschutz',
+    url: 'https://nutriminds.net/legal/#privacypolicy',
     target: '_blank',
   },
 
