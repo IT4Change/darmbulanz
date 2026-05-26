@@ -1,9 +1,9 @@
 {{ $image_tag := env "IMAGE_TAG" | default  (exec "../scripts/branded_image_tag.sh" (list) | trim) }}
 
 deploy:
-    GITHUB_REPOSITORY: it4change/darmbulanz
+    GITHUB_REPOSITORY: it4change/os.nutriminds.net
     IMAGE_TAG: {{ $image_tag }}
-    DOMAIN: darmbulanz.stage.ocelot-social.it4c.org
+    DOMAIN: os.nutriminds.net.stage.ocelot-social.it4c.org
     REDIRECT_DOMAINS: []
     NAMESPACE: darmbulanz-staging
     RELEASE_NAME_OCELOT: darmbulanz-social-ocelot
