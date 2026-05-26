@@ -5,8 +5,8 @@ deploy:
     IMAGE_TAG: {{ $image_tag }}
     DOMAIN: os.nutriminds.net.stage.ocelot-social.it4c.org
     REDIRECT_DOMAINS: []
-    NAMESPACE: darmbulanz-staging
-    RELEASE_NAME_OCELOT: darmbulanz-social-ocelot
+    NAMESPACE: os-nutriminds-net-staging
+    RELEASE_NAME_OCELOT: os-nutriminds-net-social-ocelot
     NEO4J_STORAGE: "5Gi"
 
 ocelot:
@@ -17,7 +17,7 @@ ocelot:
         CATEGORIES_ACTIVE: "true"
         MAX_PINNED_POSTS: "1"
         BADGES_ENABLED: "false"
-        NETWORK_NAME: "Darmbulanz"
+        NETWORK_NAME: "Nutriminds.net"
         ASK_FOR_REAL_NAME: "true"
         REQUIRE_LOCATION: "true"
         MAX_GROUP_PINNED_POSTS: "1"
